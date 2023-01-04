@@ -6,13 +6,8 @@
       "name": "ProfessorUm",
       "age": 23,
       "bio": "Teste",
-      "school_year_preference": [
-        "Ensino médio"
-      ],
-      "grades": [
-        "Matemática",
-        "Física"
-      ],
+      "school_year_preference": ["Ensino médio"],
+      "grades": ["Matemática", "Física"],
       "type": "teacher",
       "id": 1
     },
@@ -22,13 +17,8 @@
       "name": "ProfessorDois",
       "age": 50,
       "bio": "TesteDois",
-      "school_year_preference": [
-        "Ensino fundamental I"
-      ],
-      "grades": [
-        "Português",
-        "Redação"
-      ],
+      "school_year_preference": ["Ensino fundamental I"],
+      "grades": ["Português", "Redação"],
       "type": "teacher",
       "id": 2
     },
@@ -48,17 +38,10 @@
       "name": "ProfessorTres",
       "age": 60,
       "bio": "Teste",
-      "school_year_preference": [
-        "Ensino fundamental II"
-      ],
-      "grades": [
-        "Português",
-        "Redação"
-      ],
+      "school_year_preference": ["Ensino fundamental II"],
+      "grades": ["Português", "Redação"],
       "type": "teacher",
-      "messages": [
-        "preciso de ajuda"
-      ],
+      "messages": ["preciso de ajuda"],
       "id": 4
     }
   ],
@@ -79,6 +62,29 @@
       "teacher_id": 4,
       "student_id": 3,
       "id": 2
+    }
+  ],
+  "Grades": [
+    {
+      "id": 1,
+      "schooling": "Ensino fundamental I",
+      "specific_grades": [
+        "Matemática, Português, Ciências, História, Geografia"
+      ]
+    },
+    {
+      "id": 2,
+      "schooling": "Ensino fundamental II",
+      "specific_grades": [
+        "Matemática, Português, Redação, Ciências, História, Geografia, Física, Quimica, Biologia"
+      ]
+    },
+    {
+      "id": 3,
+      "schooling": "Ensino médio",
+      "specific_grades": [
+        "Matemática, Português, Redação, História, Geografia, Física, Quimica, Biologia, Filosofia, Sociologia"
+      ]
     }
   ]
 }
