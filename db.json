@@ -1,11 +1,84 @@
 {
   "users": [
     {
-      "email": "kenzinho@mail.com",
-      "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
-      "name": "Kenzinho",
-      "age": 38,
+      "email": "professorTeste1@mail.com",
+      "password": "$2a$10$hHK8V9scTt6.yfMrN7s8heWZI8zRsO3UlyVZZIHllgMWWe8gR9Lfm",
+      "name": "ProfessorUm",
+      "age": 23,
+      "bio": "Teste",
+      "school_year_preference": [
+        "Ensino médio"
+      ],
+      "grades": [
+        "Matemática",
+        "Física"
+      ],
+      "type": "teacher",
       "id": 1
+    },
+    {
+      "email": "professorTeste2@mail.com",
+      "password": "$2a$10$CUuoKPsbAZYBHpuga/1UC.PJcdhWkyMpjCoYLypWNoOphSYwRtLN2",
+      "name": "ProfessorDois",
+      "age": 50,
+      "bio": "TesteDois",
+      "school_year_preference": [
+        "Ensino fundamental I"
+      ],
+      "grades": [
+        "Português",
+        "Redação"
+      ],
+      "type": "teacher",
+      "id": 2
+    },
+    {
+      "email": "robertinho@mail.com",
+      "password": "$2a$10$fWi43atMZD7dh6X842phfOqWcy6iKZyhVQ/El2yBGKh572njnX5u6",
+      "name": "Roberto",
+      "age": 16,
+      "schooling": "Ensino médio",
+      "school_year": "Primeiro ano",
+      "type": "student",
+      "id": 3
+    },
+    {
+      "email": "professorTeste3@mail.com",
+      "password": "$2a$10$0LE9kiFjypnHE3vm1QUc7.Ws4Bj4msDLgCwuvL68GpzsehQkG8YB2",
+      "name": "ProfessorTres",
+      "age": 60,
+      "bio": "Teste",
+      "school_year_preference": [
+        "Ensino fundamental II"
+      ],
+      "grades": [
+        "Português",
+        "Redação"
+      ],
+      "type": "teacher",
+      "messages": [
+        "preciso de ajuda"
+      ],
+      "id": 4
+    }
+  ],
+  "messages": [
+    {
+      "name": "Rogérinho",
+      "age": 17,
+      "school_year": "Terceiro ano",
+      "message": "Preciso de ajuda com X, vamos negociar",
+      "teacher_id": 4,
+      "id": 1
+    },
+    {
+      "name": "Robertinho",
+      "age": 17,
+      "school_year": "Terceiro ano",
+      "message": "Preciso de ajuda com X, vamos negociar",
+      "teacher_id": 4,
+      "student_id": 3,
+      "id": 2
     }
   ]
 }
