@@ -1,3 +1,5 @@
+[![Run in Insomnia}](https://insomnia.rest/images/run.svg)](https://insomnia.rest/run/?label=API-Conectaula&uri=https%3A%2F%2Fgithub.com%2FLuccaHaddadSerejo%2Fgrupo-3-json-server%2Fblob%2Fmaster%2Fapi-conectaula.json)
+
 ## Endpoints
 Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login. Além desses, adicionamos mais 2 endpoints utilizando o JSON-Server (https://www.npmjs.com/package/json-server).
 ### Cadastro
