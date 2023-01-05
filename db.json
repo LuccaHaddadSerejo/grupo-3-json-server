@@ -6,21 +6,21 @@
       "id": 1,
       "schooling": "Ensino fundamental I",
       "specific_grades": [
-        "Matemática, Português, Ciências, História, Geografia, Arte"
+        "Matemática, Português, Arte, Ciências, História, Geografia"
       ]
     },
     {
       "id": 2,
       "schooling": "Ensino fundamental II",
       "specific_grades": [
-        "Matemática, Português, Redação, Ciências, História, Geografia, Inglês, Espanhol"
+        "Matemática, Português, Redação, Arte, Ciências, História, Geografia, Inglês, Espanhol"
       ]
     },
     {
       "id": 3,
       "schooling": "Ensino médio",
       "specific_grades": [
-        "Matemática, Português, Redação, História, Geografia, Física, Química, Biologia, Filosofia, Sociologia, Inglês, Espanhol"
+        "Matemática, Português, Redação, Arte, História, Geografia, Física, Química, Biologia, Filosofia, Sociologia, Inglês, Espanhol"
       ]
     }
   ]
